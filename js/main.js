@@ -208,7 +208,7 @@ interact('.dropzone').dropzone({
 var scale = 1,
     resetTimeout;
 
-interact('.resize-drag')
+interact('.pinchzoom')
   .gesturable({
     onstart: function (event) {
       clearTimeout(resetTimeout);
