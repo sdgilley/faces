@@ -21,32 +21,32 @@ img {
 }
 #eye1 {
   position: fixed;
-  top: 60px;
+  top: 100px;
   left: 20px;
 }
 #eye2 {
   position: fixed;
-  top: 60px;
+  top: 100px;
   left: 120px;
 }
 #nose1 {
   position: fixed;
-  top: 180px;
+  top: 220px;
   left: 20px;
 }
 #nose2 {
     position: fixed;
-  top: 180px;
+  top: 220px;
   left: 120px;
 }
 #mouth1 {
     position: fixed;
-  top: 300px;
+  top: 340px;
   left: 20px;
 }
 #mouth2 {
   position: fixed;
-  top: 300px;
+  top: 340px;
   left: 120px;
 }
 
