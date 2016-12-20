@@ -1,45 +1,46 @@
----
-layout: default
-title: FACES
+--- 
+layout: default 
+title: FACES 
 ---
 
-  <div id="canvas" class="resize-container">
-      <div id="eye1" class="resize-drag  dropzone"> <img src="img/eye1.jpg"></div>
-      <div id="eye2" class="resize-drag  dropzone">  <img src="img/eye2.jpg"></div>
-      <div id="nose1" class="resize-drag  dropzone">  <img src="img/nosel.jpg"></div>
-      <div id="nose2" class="resize-drag  dropzone">  <img src="img/noser.jpg"></div>
-      <div id="mouth1" class="resize-drag dropzone"> <img src="img/mouthl.jpg"></div>
-      <div id="mouth2" class="resize-drag dropzone"> <img src="img/mouthr.jpg"></div>
+<div id="canvas" class="resize-container">
+  <div id="eye1" class="resize-drag  dropzone"> <img src="img/eye1.jpg"></div>
+  <div id="eye2" class="resize-drag  dropzone"> <img src="img/eye2.jpg"></div>
+  <div id="nose1" class="resize-drag  dropzone"> <img src="img/nosel.jpg"></div>
+  <div id="nose2" class="resize-drag  dropzone"> <img src="img/noser.jpg"></div>
+  <div id="mouth1" class="resize-drag dropzone"> <img src="img/mouthl.jpg"></div>
+  <div id="mouth2" class="resize-drag dropzone"> <img src="img/mouthr.jpg"></div>
 </div>
-      
-<div  id="gallery" class="gallery-outer">
-  <button data-toggle="collapse" data-target="#eyes">Eyes</button>
-  <button data-toggle="collapse" data-target="#noses">Noses</button>
-  <button data-toggle="collapse" data-target="#mouths">Mouths</button>
-  <div class="gallery-inner">
-    
-    <div id="eyes" class="collapse">
-      <div class="pickme orig drag-drop"><img src="img/eye1.jpg"> </div>
-      <div class="pickme orig  drag-drop"><img src="img/eye2.jpg"> </div>
-      <div class="pickme orig drag-drop"><img src="img/eye3.jpg"> </div>
-      <div class="pickme orig drag-drop"><img src="img/eye4.jpg"> </div>
-      <div class="pickme orig drag-drop"><img src="img/eye5.jpg"> </div>
-      <div class="pickme orig drag-drop"><img src="img/eye6.jpg"> </div>
-    </div>
-    
-    <div id="noses" class="collapse">
-      <div class="pickme orig drag-drop"><img src="img/nosel.jpg"> </div>
-      <div class="pickme orig  drag-drop"><img src="img/noser.jpg"> </div>
-      <div class="pickme orig drag-drop"><img src="img/nosel2.jpg"> </div>
-      <div class="pickme orig  drag-drop"><img src="img/noser2.jpg"> </div>
-    </div>
-    <div id="mouths" class="collapse">
+
+<div id="gallery" >
+        <button  id="toggleEyes" class="btn btn-default" data-toggle="button">Eyes</button>
+        <button  id="toggleNose" class="btn btn-default" data-toggle="button">Nose</button>
+        <button  id="toggleMouth" class="btn btn-default" data-toggle="button">Mouth</button>
+  <div clas="gallery-outer"><div class="gallery-inner">
+    <span class="eyes">
+    <div class="pickme orig drag-drop"><img src="img/eye1.jpg"> </div>
+    <div class="pickme orig  drag-drop"><img src="img/eye2.jpg"> </div>
+    <div class="pickme orig drag-drop"><img src="img/eye3.jpg"> </div>
+    <div class="pickme orig drag-drop"><img src="img/eye4.jpg"> </div>
+    <div class="pickme orig drag-drop"><img src="img/eye5.jpg"> </div>
+    <div class="pickme orig drag-drop"><img src="img/eye6.jpg"> </div>
+    </span>
+
+    <span class="nose">
+    <div class="pickme orig drag-drop"><img src="img/nosel.jpg"> </div>
+    <div class="pickme orig  drag-drop"><img src="img/noser.jpg"> </div>
+    <div class="pickme orig drag-drop"><img src="img/nosel2.jpg"> </div>
+    <div class="pickme orig  drag-drop"><img src="img/noser2.jpg"> </div>
+    </span>
+    <span class="mouth">
       <div class="pickme orig drag-drop"><img src="img/mouthl.jpg"> </div>
       <div class="pickme orig  drag-drop"><img src="img/mouthr.jpg"> </div>
       <div class="pickme orig drag-drop"><img src="img/mouthl2.jpg"> </div>
       <div class="pickme orig  drag-drop"><img src="img/mouthr2.jpg"> </div>
-    </div>
-  </div>
+    </span>
+  </div></div>
 </div>
 
-</body></html>
+</body>
+
+</html>

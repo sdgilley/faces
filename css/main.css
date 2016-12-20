@@ -89,3 +89,6 @@ img {
   border-color: #4e4;
 }
 
+.eyes, .nose, .mouth {
+  display: none;
+}
