@@ -57,6 +57,10 @@ img {
   position: fixed;
   z-index: 999;
 }
+#canvas {
+  position: fixed;
+  z-index: 1;
+}
 .gallery-outer { overflow: scroll; width: 500px; height: 210px; }
 .gallery-inner { width: 10000px; }
 
