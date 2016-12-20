@@ -52,6 +52,8 @@ img {
 
 .pickme  {
   height: 60px;
+}
+#gallery {
   z-index: 999;
 }
 
