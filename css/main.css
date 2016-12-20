@@ -21,32 +21,32 @@ img {
 }
 #eye1 {
   position: fixed;
-  top: 100px;
+  top: 250px;
   left: 20px;
 }
 #eye2 {
   position: fixed;
-  top: 100px;
+  top: 250px;
   left: 120px;
 }
 #nose1 {
   position: fixed;
-  top: 220px;
+  top: 370px;
   left: 20px;
 }
 #nose2 {
     position: fixed;
-  top: 220px;
+  top: 370px;
   left: 120px;
 }
 #mouth1 {
     position: fixed;
-  top: 340px;
+  top: 490px;
   left: 20px;
 }
 #mouth2 {
   position: fixed;
-  top: 340px;
+  top: 490px;
   left: 120px;
 }
 
@@ -54,8 +54,11 @@ img {
   height: 60px;
 }
 #gallery {
+  position: fixed;
   z-index: 999;
 }
+.gallery-outer { overflow: scroll; width: 500px; height: 210px; }
+.gallery-inner { width: 10000px; }
 
 .dropzone {
   transition: background-color 0.3s;

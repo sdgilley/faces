@@ -2,24 +2,27 @@
 layout: default
 title: FACES
 ---
-<div  id="gallery">
-  <button data-toggle="collapse" data-target="#eyes">Eyes</button>
-  <div id="eyes" class="collapse">
-		<div class="pickme orig drag-drop"><img src="img/eye1.jpg"> </div>
-		<div class="pickme orig  drag-drop"><img src="img/eye2.jpg"> </div>
-		<div class="pickme orig drag-drop"><img src="img/eye3.jpg"> </div>
-		<div class="pickme orig drag-drop"><img src="img/eye4.jpg"> </div>
+<div  id="gallery" class="gallery-outer">
+  <div class="gallery-inner">
+    <button data-toggle="collapse" data-target="#eyes">Eyes</button>
+    <div id="eyes" class="collapse">
+      <div class="pickme orig drag-drop"><img src="img/eye1.jpg"> </div>
+      <div class="pickme orig  drag-drop"><img src="img/eye2.jpg"> </div>
+      <div class="pickme orig drag-drop"><img src="img/eye3.jpg"> </div>
+      <div class="pickme orig drag-drop"><img src="img/eye4.jpg"> </div>
+    </div>
+    <button data-toggle="collapse" data-target="#noses">Noses</button>
+    <div id="noses" class="collapse">
+      <div class="pickme orig drag-drop"><img src="img/nosel.jpg"> </div>
+      <div class="pickme orig  drag-drop"><img src="img/noser.jpg"> </div>
+    </div>
+    <button data-toggle="collapse" data-target="#mouths">Mouths</button>
+    <div id="mouths" class="collapse">
+      <div class="pickme orig drag-drop"><img src="img/mouthl.jpg"> </div>
+      <div class="pickme orig  drag-drop"><img src="img/mouthr.jpg"> </div>
+    </div>
   </div>
-  <button data-toggle="collapse" data-target="#noses">Noses</button>
-  <div id="noses" class="collapse">
-		<div class="pickme orig drag-drop"><img src="img/nosel.jpg"> </div>
-		<div class="pickme orig  drag-drop"><img src="img/noser.jpg"> </div>
-  </div>
-  <button data-toggle="collapse" data-target="#mouths">Mouths</button>
-  <div id="mouths" class="collapse">
-		<div class="pickme orig drag-drop"><img src="img/mouthl.jpg"> </div>
-		<div class="pickme orig  drag-drop"><img src="img/mouthr.jpg"> </div>
-  </div>
+</div>
 
 
   <div id="canvas" class="resize-container">
