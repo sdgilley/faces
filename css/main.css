@@ -52,6 +52,7 @@ img {
 
 .pickme  {
   height: 60px;
+  z-index: 999;
 }
 
 .dropzone {
