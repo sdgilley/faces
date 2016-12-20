@@ -204,3 +204,35 @@ interact('.dropzone').dropzone({
   }
 });
 
+/* PINCH TO ZOOM */
+var scale = 1,
+    resetTimeout;
+
+interact('.resize-drag')
+  .gesturable({
+    onstart: function (event) {
+      clearTimeout(resetTimeout);
+      scaleElement.classList.remove('reset');
+    },
+    onmove: function (event) {
+      scale = scale * (1 + event.ds);
+      var scaleElement = event.target;
+      scaleElement.style.webkitTransform =
+      scaleElement.style.transform =
+        'scale(' + scale + ')';
+
+      dragMoveListener(event);
+    },
+    onend: function (event) {
+      resetTimeout = setTimeout(reset, 1000);
+      scaleElement.classList.add('reset');
+    }
+  })
+  .draggable({ onmove: dragMoveListener });
+
+function reset () {
+  scale = 1;
+  scaleElement.style.webkitTransform =
+  scaleElement.style.transform =
+    'scale(1)';
+}
