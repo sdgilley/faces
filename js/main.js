@@ -236,3 +236,12 @@ function reset () {
   scaleElement.style.transform =
     'scale(1)';
 }
+
+/* TAPPING */
+interact('.pinchzoom')
+    .on('doubletap', function (event) {
+        var me = event.target;
+        znow = parseFloat(me.style.zIndex)  || 0;
+        console.log("CURRENT: " + znow);
+        me.style.zIndex = znow + 1;
+    });
